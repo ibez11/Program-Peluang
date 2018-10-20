@@ -24,5 +24,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	
 }
  echo '<form action="" method="post" enctype="multipart/form-data">';
- 
+ echo '<input type="submit" name="submit" />';
  echo '</form>';
